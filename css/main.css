@@ -104,10 +104,10 @@ body {
 
 .cart-footer {
   display: grid;
-  grid-template-columns: 5fr 3fr 1fr;
+  grid-template-columns: 2fr repeat(3, 3fr) 1fr;
   column-gap: 30px;
   padding: 19px 0;
-  background-color: #eaeff2;
+  background: #eaeff2;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2; }
@@ -122,7 +122,7 @@ body {
       row-gap: 10px; } }
 
 .cart-footer__count {
-  grid-column-start: 2; }
+  grid-column-start: 3; }
   @media (max-width: 600px) {
     .cart-footer__count {
       grid-column-start: 1; } }
