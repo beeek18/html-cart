@@ -1,4 +1,4 @@
-<h1>HTML Cart 🛒
+<h1>Cart 🛒
 
 <h4>
 <li>CSS Grid
